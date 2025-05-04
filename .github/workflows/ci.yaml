@@ -34,6 +34,7 @@ jobs:
       run: |
         uv venv
         source .venv/bin/activate
+        uv pip install requirements-dev.txt
         uv pip install -e .
         uv pip install pytest
 
