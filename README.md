@@ -13,6 +13,23 @@
 - GitHub Actions を使った CI 自動テスト
 
 ---
+## ⚙️ 環境構築（venv を使用）
+
+```bash
+# リポジトリをクローン
+git clone https://github.com/wani-wani-wa/BCR_classifier.git
+cd BCR_classifier
+
+# uv のインストール（初回のみ）
+curl -Ls https://astral.sh/uv/install.sh | sh
+
+# 依存パッケージをインストール
+uv pip install -r requirements.txt
+
+# BCR_Classifierパッケージを開発モードでインストール
+uv pip install -e .
+```
+___
 
 ## 📂 データ準備
 
