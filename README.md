@@ -103,6 +103,9 @@ curl -Ls https://astral.sh/uv/install.sh | sh
 # 依存パッケージをインストール
 uv pip install -r requirements.txt
 
+# BCR_Classifierパッケージを開発モードでインストール
+uv pip install -e .
+
 # テストを実行
 pytest -s tests/
 ```
