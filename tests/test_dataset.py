@@ -47,7 +47,7 @@ def test_dataset_length(sample_df, tokenizer):
 def test_dataset_item_format(sample_df, tokenizer):
     dataset = BCRDataset(sample_df, tokenizer, max_length=10)
     item = dataset[0]
-    print(item, item["attention_mask"].sum().item())
+    # print(item, item["attention_mask"].sum().item())
     assert isinstance(item, dict)
     assert "input_ids" in item
     assert "attention_mask" in item
