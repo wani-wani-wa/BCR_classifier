@@ -33,10 +33,10 @@ ___
 
 ## 📂 データ準備
 
-学習に使用するデータは、以下の2つのノートブックを順に実行して事前処理する必要があります：
+学習に使用するデータは、以下の2つのステップを順に実行して事前処理する必要があります：
 
-1. [`bcr_preprocessing.ipynb`](https://github.com/naity/protein-transformer/blob/main/notebooks/bcr_preprocessing.ipynb)
-   → BCR 配列の収集・前処理（フィルタリングなど）
+1. こちらの[`リンク`](https://www.iedb.org/downloader.php?file_name=doc/bcr_full_v3.zip)からデータの取得
+   → BCR 配列とラベルの取得
 
 2. [`prepare_dataset.ipynb`](https://github.com/wani-wani-wa/BCR_classifier/blob/main/scripts/prepare_dataset.ipynb)
    → クラスラベルのエンコード・train/val/test への分割、`.parquet` ファイルとして保存
