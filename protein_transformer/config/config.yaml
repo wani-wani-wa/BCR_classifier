@@ -1,0 +1,10 @@
+defaults:
+  - data: data
+  - model: model
+
+trainer:
+  max_epochs: 10
+  accelerator: auto
+
+logging:
+  log_dir: logs/

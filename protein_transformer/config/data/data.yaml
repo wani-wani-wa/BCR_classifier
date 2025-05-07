@@ -1,0 +1,4 @@
+train_path: ../data_dir/bcr_train.csv
+val_path: ../data_dir/bcr_val.csv
+test_path: ../data_dir/bcr_test.csv
+batch_size: 32
